@@ -1,0 +1,14 @@
+CREATE TABLE TABLE_CONTACTOS (
+    cod_id INT PRIMARY KEY,
+    val_nombre VARCHAR(255),
+    val_apellidos VARCHAR(255),
+    val_email VARCHAR(255)
+);
+
+
+CREATE TABLE TABLE_USUARIO (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role VARCHAR(255) NOT NULL
+);
