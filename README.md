@@ -6,6 +6,9 @@ La API de Agenda permite la gestión de contactos, proporcionando operaciones CR
 ## Autenticación
 La API utiliza **Spring Security** para autenticación básica. Asegúrate de incluir las credenciales de usuario en las cabeceras de tus solicitudes.
 
+## Requisitos
+Tener instalado javaJDK 22.
+
 
 
 ## Dependencias del Proyecto
